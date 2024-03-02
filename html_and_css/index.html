@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* mobile version */
+        .button-1 {
+            background-color: aquamarine;
+            border: 0;
+            height: 10%;
+            width: 10%;
+            padding: 1rem;
+        }
+
+        .button-2 {
+            background-color: rgb(4, 57, 39);
+            border: 0;
+            height: 10%;
+            width: 10%;
+            padding: 1rem;
+            border-radius: 10px;
+            color: white;
+
+        }
+
+        .button-3 {
+            background-image: url(./Purple-shiny-glossy-web-button-on-transparent-background-PNG-removebg-preview.png);
+            border: 0;
+            height: 10%;
+            width: 10%;
+            padding: 1rem;
+            border-radius: 10px;
+            color: white;
+            background-position: center;
+            background-size: cover;
+
+        }
+        .button-4 {
+            background-color: rgb(224, 145, 8);
+            border: 0;
+            height: 10%;
+            width: 10%;
+            padding: 1rem;
+            border-radius: 10px;
+            color: white;
+
+        }
+        .button-4:hover {
+          background-color: brown;
+
+        }
+        .button-5 {
+            background-color: rgb(19, 138, 242);
+            border: 0;
+            height: 10%;
+            width: 10%;
+            padding: 1rem;
+            border-radius: 10px;
+            color: white;
+
+        }
+.animated-element {
+ 
+  animation: myAnimation 3s ease-in-out infinite;
+}
+
+@keyframes myAnimation {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+     
+          transform: translateX(10px);
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <!-- mobile version version  -->
+  <section>
+    <section>
+        <div>
+            <button class="button-1" style="height: 7%; width: 7%;">click me</button>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button class="button-2"  style="height: 7%; width: 7%;">click me</button>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button class="button-3"  style="height: 7%; width: 7%;">click me</button>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button class="button-4"  style="height: 7%; width: 7%;">click me</button>
+        </div>
+        <br>
+        <br>
+        <div>
+            <button class="button-5 animated-element"  style="height: 7%; width: 7%;"><span >click me</span></button>
+        </div>
+       </section>
+         <!-- desktop version  -->
+        <section style="margin-top: 50px;">
+            <div>
+                <button class="button-1">click me</button>
+            </div>
+            <br>
+            <br>
+            <div>
+                <button class="button-2">click me</button>
+            </div>
+            <br>
+            <br>
+            <div>
+                <button class="button-3">click me</button>
+            </div>
+            <br>
+            <br>
+            <div>
+                <button class="button-4">click me</button>
+            </div>
+            <br>
+            <br>
+            <div>
+                <button class="button-5 animated-element"><span >click me</span></button>
+            </div>
+        </section>
+  </section>
+</body>
+
+</html>
